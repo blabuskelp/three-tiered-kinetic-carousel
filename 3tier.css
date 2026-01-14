@@ -1,0 +1,50 @@
+body {
+  margin:0;
+  font-family: sans-serif;
+  background:#f5f5f5;
+}
+
+.carousel-zone {
+  padding: 60px 0;
+}
+
+.lane {
+  position: relative;
+  overflow: hidden;
+  margin: 30px 0;
+  height: 180px;
+}
+
+.track {
+  display: flex;
+  width: max-content;
+  will-change: transform;
+}
+
+.card {
+  display: block;
+  min-width: 260px;
+  margin-right: 16px;
+  padding: 18px;
+  background:#121212;
+  border-radius: 16px;
+  color:white;
+  text-decoration:none;
+  transition: transform .25s, box-shadow .25s;
+}
+
+.card:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 12px 32px rgba(0,0,0,.4);
+}
+
+.card h3 {
+  margin:0 0 6px;
+  font-size:1.1rem;
+}
+
+.card p {
+  margin:0;
+  font-size:.9rem;
+  line-height:1.3;
+}
